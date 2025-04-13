@@ -26,12 +26,12 @@ th, td{
 .fa-people-group, .fa-user-group, .fa-house{
     padding-right: 2rem;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #46af62;
     font-size: 25px;
     transition: .2s ease-in-out;
 }
 .fa-people-group:hover, .fa-user-group:hover, .fa-house:hover{
-    color: gray;
+    color: #46af62;
     font-size: 50px;
 }
 .content{
