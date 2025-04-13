@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Beautiful Norway';
+}
+
+.c-root {
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 2px;
+    width: 100%;
+    
+}
+
+th, td{
+    border-bottom: 1px solid black;
+    padding: 1rem 0rem;
+    text-align: center;
+}
+.fa-people-group, .fa-user-group, .fa-house{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transition: .2s ease-in-out;
+}
+.fa-people-group:hover, .fa-user-group:hover, .fa-house:hover{
+    color: gray;
+    font-size: 50px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 70px;
+}
+a{
+    color: black;
+    font-size: 17px;
+    padding: 5px;
+}
+a:hover{
+    color: red;
+}
+.holder{
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px;
+}
+th{
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+h1{
+    letter-spacing: 10px;
+}
