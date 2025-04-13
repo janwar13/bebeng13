@@ -31,7 +31,7 @@ th, td{
     transition: .2s ease-in-out;
 }
 .fa-people-group:hover, .fa-user-group:hover, .fa-house:hover{
-    color: gray;
+    color: #46af62;
     font-size: 50px;
 }
 .content{
@@ -40,7 +40,7 @@ th, td{
     grid-auto-rows: 70px;
 }
 a{
-    color: black;
+    color: #46af62;
     font-size: 17px;
     padding: 5px;
 }
